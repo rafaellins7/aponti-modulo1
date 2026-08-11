@@ -1,11 +1,11 @@
-# Aponti — Análise de Dados PRF (Atividades 1 a 4)
+# Aponti — Análise de Dados PRF 
 
 Repositório com a trilha completa do curso de Análise de Dados, usando a
 base de acidentes da Polícia Rodoviária Federal (PRF) como estudo de caso.
 Cada atividade representa uma etapa de maturidade da análise, reaproveitando
 o que foi feito na anterior.
 
-## Projeto PRF 2025 — Preparação dos Dados (Atividade 4)
+## Projeto PRF 2025 — Preparação dos Dados 
 
 ### Objetivo
 Preparar os dados de acidentes da PRF referentes a 2025 para análise
@@ -31,8 +31,6 @@ uso como preditoras causaria vazamento de dados (data leakage).
 ### Documentação complementar
 Ver `logs/decisoes_tratamento_modulo4.md` para as regras de tratamento de nulos, tipos e
 categorias, e a justificativa metodológica de cada decisão.
-
-## Demais atividades
 
 ### Atividade 1 — Excel
 Primeira atividade do curso, em planilha (`atividade1-aponti.xlsx`). Exercícios
