@@ -1,0 +1,6 @@
+﻿variavel;descricao;uso
+acidente_fatal;"1 se mortos >= 1; 0 se mortos = 0";alvo
+total_vitimas;mortos + feridos leves + feridos graves;analise/dashboard
+indice_gravidade;mortos*3 + feridos_graves*2 + feridos_leves;analise/dashboard
+br_formatada;BR padronizada no formato BR-000;analise/modelagem
+chave_localidade;UF + município + BR formatada;analise/dashboard
