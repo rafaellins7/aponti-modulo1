@@ -4,7 +4,7 @@ Construção de um **Dashboard Executivo no Excel** utilizando a base de dados d
 
 ---
 
-## 🛠️ Principais Ações Realizadas
+## Principais Ações Realizadas
 
 * **Tratamento e Regras de Negócio:**
   * Subtração simples para calcular `Vítimas Feridas`.
