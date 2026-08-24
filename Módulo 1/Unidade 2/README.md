@@ -1,20 +1,31 @@
-# Unidade 2: Truncamento, Limpeza e Análise Exploratória de Dados (EDA)
+# Unidade 2 — Relatório Visual Executivo (Excel)
 
-Foco total no pré-processamento avançado e identificação de padrões estatísticos dos acidentes em rodovias federais.
+Construção de um **Dashboard Executivo no Excel** utilizando a base de dados de acidentes de 2025 da PRF, focando em tratamento de dados, estatística descritiva e visualização.
 
-## Objetivos de Aprendizagem
-- Tratar dados ausentes (`NaN`), duplicidades, valores discrepantes (*outliers*) e inconsistências de digitação.
-- Padronizar variáveis temporais (datas, horários) e geográficas (UF, BR, Município, KM).
-- Realizar Análise Exploratória de Dados (EDA) para validar as hipóteses da Unidade 1.
+---
 
-## Tópicos Cobertos
-- **Limpeza de Dados:** Imputação e filtragem de registros corrompidos ou incompletos.
-- **Análise Univariada e Bivariada:** Distribuição do número de vítimas por gravidade (ilesos, feridos leves, feridos graves, mortos).
-- **Análise Temporal e Espacial:** Mapeamento de picos de ocorrências por horário do dia, dia da semana e trechos de BRs.
+## 🛠️ Principais Ações Realizadas
 
-## Tecnologias e Métodos
-- **Manipulação:** `pandas` (`groupby`, `pivot_table`, tratamento de datetimes).
-- **Visualização:** `matplotlib` e `seaborn` (gráficos de dispersão, histogramas, heatmaps de correlação).
+* **Tratamento e Regras de Negócio:**
+  * Subtração simples para calcular `Vítimas Feridas`.
+  * Classificação de `Status de Fatalidade` com `=SE()` (*Crítico* vs. *Sem Vítimas Fatais*).
+  * Cálculo da `Taxa de Feridos Graves` (%) e `Pontuação de Risco`.
+ 
+* **Estatística Descritiva & Consultas:**
+  * Apuração de Média, Mediana e 3º Quartil (`=MÉDIA()`, `=MED()`, `=QUARTIL.INC()`).
+  * Criação de motor de busca por ID com `=PROCV()`.
+  * Contagem geral e agrupada de registros com `=CONT.VALORES()` e `=CONT.SE()`.
+    
+* **Visualização (Dashboard):**
+  * **Dispersão (X,Y):** Correlação entre veículos e pessoas envolvidas com linha de tendência.
+  * **Rosca:** Composição das fases do dia.
+  * **Barras Horizontais:** Top 5 causas de acidentes.
+  * **Linhas:** Evolução temporal mensal.
+  * **Colunas Empilhadas:** Clima x Estado.
 
-## Entregável da Unidade
-- **Atividade 2:** Notebook contendo o pipeline completo de limpeza e o relatório visual exploratório (EDA) com os principais achados.
+---
+
+## Arquivos da Unidade
+
+* `PI_Excel.pdf`: Roteiro de requisitos e critérios do projeto.
+* `atividade2-aponti.xlsx`: Planilha com a base tratada, cálculos estatísticos e o dashboard final.
