@@ -39,6 +39,7 @@ aponti-modulo1/
     ├── Unidade 2/  ──> Engenharia de Features & EDA Profunda
     ├── Unidade 3/  ──> Consultas Analíticas & Modelagem SQL
     └── Unidade 4/  ──> Pipelines para ML, BI & Governança de Dados
+```
 
 ### Unidade 1 — Diagnóstico de Dados & Perguntas de Negócio
 
